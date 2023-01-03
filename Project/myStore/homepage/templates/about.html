@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<h3 style="text-align: center; background-color: rgb(250, 242, 0);">
+			<a href="{% url 'home' %}">Home&nbsp;</a>
+			<a href="{% url 'menu' %}">Menu&nbsp;</a>
+			<a href="#">Contact Us&nbsp;</a>
+		</h3>
+	</header>
+	<h1 style="text-align: center;">
+		This is About Page
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut ipsum ligula. Nullam dapibus urna et orci dictum tempor. Duis non pellentesque ante, ut pharetra mi. Aliquam eu lorem egestas, consectetur erat non, mattis ex. Proin eleifend turpis at luctus aliquet. Nullam massa orci, fermentum vel nisl quis, facilisis vestibulum nulla. Pellentesque fermentum in tellus non congue. In hac habitasse platea dictumst. Etiam interdum nisl non urna tristique laoreet. Donec aliquam congue vehicula. Praesent vel metus nibh.
+		</p>
+	</h1>
+	{% include './footer.html' %}
+</body>
+</html>
