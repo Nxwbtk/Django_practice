@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block head %}
+Hello
+{% endblock %}
+{% block content %}
+	{% if name %}
+	<h1 style="text-align: center;">Hello {{ name }}</h1>
+	{% else %}
+	<h1 style="text-align: center;">Hello World</h1>
+	{% endif %}
+{% endblock %}
+
